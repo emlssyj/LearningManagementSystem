@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LearningManagementSystem</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">学号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">"欢迎!"</string>
+    <string name="invalid_username">您输入的学号有误</string>
+    <string name="invalid_password">密码必须大于5个字符</string>
+    <string name="login_failed">"登录失败"</string>
+    <string name="t">"登录失败"</string>
+</resources>
