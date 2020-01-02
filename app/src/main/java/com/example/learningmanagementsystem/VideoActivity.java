@@ -59,7 +59,7 @@ Bundle bundle;
 
         textView.setText(name);
 
-        videoView.setVideoPath("http://10.0.2.2:8080/elearn/materials/1/media");
+        videoView.setVideoPath("http://10.0.2.2:8080/elearn/materials/4/media");
 
         MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);
