@@ -10,8 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.example.learningmanagementsystem.R;
-
 public class LoginActivity extends AppCompatActivity {
 
 
@@ -31,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                Intent intent = new Intent(LoginActivity.this, MVVMLoginActivity.class);
                 startActivity(intent);
             }
         });

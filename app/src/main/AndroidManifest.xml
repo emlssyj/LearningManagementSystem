@@ -16,7 +16,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".VideoActivity"></activity>
+        <activity android:name=".MVVMLoginActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".VideoActivity" />
         <activity android:name=".TestBUGActivity" />
         <activity android:name=".TestBrowseActivity" />
         <activity android:name=".ClassMessageActivity" />
@@ -27,11 +34,7 @@
         <activity
             android:name=".LoginActivity"
             android:label="登录">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
